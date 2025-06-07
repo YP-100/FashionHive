@@ -27,8 +27,7 @@ A full PPT presentation with website information, features, and screenshots is a
 - 🔐 User Authentication (Login/Register)
 - 🛒 Product Listing & Cart Management (with Redux)
 - 💳 Secure Payments via Razorpay
-- 📊 Admin Dashboard (optional if included)
-- 📷 Image Upload & Responsive UI
+- 📊 Admin Dashboard For Full Website Management
 - 📈 Fully Scalable RESTful APIs
 
 ---

@@ -1,41 +1,64 @@
-# FashionHive
+# 👗 Fashion Hive – Full Stack E-Commerce Platform
 
-# 💻 MERN Stack Web Application
-
-This is a full-stack web application built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js). The project includes **Redux** for state management and **Razorpay** as the payment gateway integration.
-
-
-## 🖼️ Project Screenshots & Overview
-
-A full PPT presentation with website information, features, and screenshots is available in the repository.
-
-👉 [**Click here to view the PPT**](./ppts)
+**Fashion Hive** is a modern, responsive e-commerce web application built using the **MERN stack**. It supports dynamic browsing, secure payments, admin controls, and user interactions — all powered by JavaScript (99%+), including **Redux** for global state management and **Razorpay** for seamless payment integration.
 
 ---
 
-## 📂 Project Structure
+## ## 🖼️ Project Screenshots , Overview & Presentation
 
-- **Frontend**: React with Redux Toolkit
-- **Backend**: Node.js with Express
-- **Database**: MongoDB
-- **Payment Gateway**: Razorpay Integration
+🎥 [**Project Presentation (PPT)**](./ppts) – Contains detailed workflow, system diagrams, tech stack, and screenshots.
 
 ---
 
 ## 🚀 Features
 
-- 🔐 User Authentication (Login/Register)
-- 🛒 Product Listing & Cart Management (with Redux)
-- 💳 Secure Payments via Razorpay
-- 📊 Admin Dashboard For Full Website Management
-- 📈 Fully Scalable RESTful APIs
+### 🧍 User-Facing Features
+- ✅ Browse fashion products by category and subcategory
+- 🔍 Search, sort, and filter items
+- 🛒 Add items to cart, register/login to place orders
+- 💳 Razorpay-powered secure checkout
+- 📦 Track order status
+- ⭐ Rate & review purchased products
+- 🗣️ Submit feedback to the admin
+
+### 🛠️ Admin Features
+- 📊 Admin dashboard with metrics (products, sales, users, orders)
+- ➕ Add/edit/delete products
+- 👤 Manage user roles (Customer/Admin)
+- 🔄 Update order statuses
+- 🗃️ View and act on customer feedback
 
 ---
 
-## 🧾 Tech Stack
+## 🧱 Tech Stack
 
-- **Frontend**: React.js, Redux Toolkit, Axios, React Router DOM
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB, Mongoose
-- **Payments**: Razorpay API
-- **Others**: JWT Auth, bcrypt, dotenv, CORS, and more
+| Layer         | Technology                                 |
+|---------------|--------------------------------------------|
+| Frontend      | React.js, Tailwind CSS                     |
+| State Mgmt    | Redux Toolkit                              |
+| Backend       | Node.js, Express.js                        |
+| Database      | MongoDB (Mongoose ORM)                     |
+| Auth          | JWT, bcrypt                                |
+| Payments      | Razorpay                                   |
+| API Testing   | Postman, Axios                             |
+| Deployment    | (Optional) Vercel / Render / MongoDB Atlas |
+
+---
+
+## 📂 Folder Structure
+
+```bash
+/
+├── client/                # React frontend
+│   ├── pages/             # UI pages (Home, Cart, Product, Admin)
+│   ├── components/        # Reusable UI components
+│   ├── redux/             # Redux store, slices, and actions
+│   └── App.js             # Main entry point
+
+├── server/                # Node + Express backend
+│   ├── controllers/       # Business logic
+│   ├── routes/            # API endpoints
+│   ├── models/            # Mongoose schemas
+│   ├── config/            # Razorpay keys, DB connection
+│   ├── middleware/        # Auth, error handling
+│   └── server.js          # Main server file

@@ -9,7 +9,7 @@ This is a full-stack web application built using the **MERN stack** (MongoDB, Ex
 
 A full PPT presentation with website information, features, and screenshots is available in the repository.
 
-👉 [**Click here to view the PPT**](./FashionHive/ppts)
+👉 [**Click here to view the PPT**](./ppts)
 
 ---
 

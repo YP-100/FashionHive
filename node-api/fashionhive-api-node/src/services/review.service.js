@@ -1,6 +1,6 @@
 const Review = require("../models/review.model.js");
 const productService = require("./product.service");
-const User = require("../models/user.model.js");
+const User = require("../models/User.model.js");
 const reviewService = require("./review.service.js");
 
 async function createReview(reqData, user) {
